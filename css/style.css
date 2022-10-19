@@ -1,0 +1,159 @@
+@font-face {
+  font-family: "BigFonte";
+  src: url(fonts/AlexBrush-Regular.ttf);
+}
+
+
+body {
+  margin: 0;
+  background-color: #1E272D;
+  line-height: 150%;
+
+}
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0088FF;
+}
+a:hover{
+  color: orange;
+}
+
+
+p {
+  margin: 30px 0px;
+  color: white;
+}
+
+nav {
+  width: 75%;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content:space-around;
+}
+nav div {
+  background-color: #5BBDBF;
+  display: flex;
+  position: relative;
+  width: 100px;
+  align-items: center;
+}
+nav a {
+  padding: 0 10px; 
+  border-left:  2px solid black; 
+}
+
+nav div:first-child a {
+  border-left:  none; 
+}
+
+.submenu {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  background-color: #aca;
+  display: none;
+}
+
+nav div:hover .submenu  {
+  display: block;
+}
+
+header {
+ display: flex;
+ align-items: flex-end;
+ background-color: white;
+ width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+article:first-child {
+  display:flex;
+  flex-direction: column;
+  background-color: #0099FF;
+  padding-bottom: ;
+}
+
+article:first-child div {
+  display: flex;
+}
+
+article {
+  height:auto;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  /* border-radius: 30px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: -10px;
+}
+
+article img {
+  aspect-ratio: 16/9;
+  padding: 15px;
+  border-radius: 30px;
+  z-index: 1;
+}
+
+article p {
+  padding: 10px;
+}
+
+
+.puce {
+  visibility:hidden;
+}
+
+a:hover .puce{
+  visibility:visible;
+}
+
+footer {
+  margin-top: 30px;
+  height: 150px;
+  background-color:black;
+
+}
+
+.vague {
+  width:100%;
+  height:100%;
+  margin-top:-2px;
+  z-index: 1;
+}
+
+.article2 {
+  background-color:#215E86;
+  height: 400px;
+  z-index: 0;
+}
+.article3 , .article4 {
+  background-color: #1C3647;
+}
+
+.vague1 {
+  background-color:#215E86;
+  width:100%;
+}
+
+.vague2 {
+  background-color:#215E86;
+  width:100%;
+}
+
+.vague3 {
+  background-color:#1C3647;
+  width:100%;
+}
+
