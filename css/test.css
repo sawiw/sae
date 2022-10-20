@@ -112,19 +112,11 @@ article p {
   display:flex;
   flex-direction: column;
   position: relative;
-  background-color: #0099FF;
+  /* background-color: #0099FF; */
 }
-
-
-
-article:first-child div {
-  display: flex;
-}
-
-
 
 .article2 {
-  background-color:#215E86;
+  /* background-color:#215E86; */
   height: 400px;
   z-index: 0;
 }
@@ -150,33 +142,33 @@ div .vague {
 .vague {
   width:100%;
   height:100%;
-  z-index: 1;
   position: relative;
 }
 
+.vague1, .vague2, .vague3, .vague4 {
+  width: 100%;
+}
 
 
-
-/* .vague1 {
+.vague1 {
   background-color:#215E86;
-  width:100%;
-  margin-top: -1px;
 }
 
 .vague2 {
   background-color:#215E86;
-  width:100%;
-} */
+}
 
 .vague3 {
   background-color:#1C3647;
-  width:100%;
-  padding-bottom: -10px;
-  margin-bottom: -1px;
 }
 
+
 .top {
-  background-color: ;
+  background-color:#0099FF;
+}
+
+.mid1 {
+  background-color: #215E86;
 }
 
 .mid2 {
