@@ -92,9 +92,6 @@ article {
   display: flex;
   flex-direction: row;
   align-items:center;
-  /* padding-top: 100px;
-  padding-bottom: 100px;
-  margin-top: -10px; */
 }
 
 article img {
@@ -115,32 +112,20 @@ article p {
   background-color: #0099FF;
 }
 
-
-
 article:first-child div {
   display: flex;
 }
-
-
 
 .article2 {
   background-color:#215E86;
   height: 400px;
   z-index: 0;
 }
+
 .article3 , .article4 {
   background-color: #1C3647;
 }
 
-
-
-
-footer {
-  margin-top: 30px;
-  height: 150px;
-  background-color:black;
-
-}
 
 div .vague {
   position: relative;
@@ -176,9 +161,13 @@ div .vague {
 }
 
 .top {
-  background-color: ;
 }
 
 .mid2 {
   background-color: #1C3647;
+}
+
+footer {
+  height: 150px;
+  background-color: #1E272D;
 }
