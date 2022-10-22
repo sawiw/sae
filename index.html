@@ -12,24 +12,22 @@
 	<header>
 		<nav>
 			<div>
-				<a class="accueil" href="./index.html">Accueil</a></div>
+				<a class="accueil" href="#accueil">Accueil</a></div>
+
+			<div><a href="#news">Actualités</a></div>
 
 			<div>
 				<a href="#rooms">Les Rooms</a>
 				<div class="submenu">
-					<div><a href="./other.html"><span class="puce">■</span>other</a></div>
-					<div><a href="./another.html"><span class="puce">■</span>another</a></div>
+					<div><a href="#room1">Room 1</a></div>
+					<div><a href="#room2"><span class="puce">■</span>another</a></div>
 				</div>
 			</div>
 
-			<div><a href="./news.html">Actualités</a></div>
 
 			<div>
-				<a href="./contact.html">Contact</a>
-				<div class="submenu">
-					<div><a href="./other.html"><span class="puce">■</span>other</a></div>
-					<div><a href="./another.html"><span class="puce">■</span>another</a></div>
-				</div>
+				<a href="#contact">Contact</a>
+
 			</div>
 		</nav>
 
@@ -37,24 +35,25 @@
 
 	<main>
 
-		<section class="top">
+		<section class="top" id="accueil">
+			<div class="titre"><h1>Titre de l'escape</h1></div>
 			<article class="article1">
 				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea totam repudiandae dolorum, tenetur odio
 					nam consectetur eum sint maxime. Sunt quae numquam dolores quibusdam earum illo laudantium illum
 					porro libero officia ullam aspernatur, minima error harum architecto repellat dolorem mollitia.</p>
-					<div>
-						<img src="https://via.placeholder.com/400x250">
-						<img src="https://via.placeholder.com/400x250">
-					<img src="https://via.placeholder.com/400x250">
+				<div class="triple">
+					<img src="images/vaisseau.png">
+					<img src="images/interieur.png">
+					<img src="images/abysses.png">
 				</div>
-
 			</article>
-			<div class="vague1">
-				<img class="vague" src="/images/Vector.svg" alt="vague">
+			<div class="vagu">
 			</div>
 		</section>
+		<img class="vague1" id="news" src="/images/vague1.svg" alt="vague">
 		
-		<section class="mid1">
+		<section class="mid1" >
+			<div class="titre"><h2>Actualités</h2></div>
 			<article class="article2">
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis inventore, soluta unde vero, dolor
 					officia delectus quas amet similique, a exercitationem dolorem nostrum omnis! Commodi autem
@@ -63,17 +62,17 @@
 					amet cupiditate aliquam repellendus vel dolorem recusandae aperiam id, exercitationem nesciunt odio
 					est. Velit facilis voluptas corporis, cupiditate adipisci, soluta maxime quisquam consectetur itaque
 					necessitatibus sapiente rem ratione.</p>
-					<img src="https://via.placeholder.com/400x250">
-				</article>
-				<div class="vague2">
-					<img class="vague" src="/images/Vector(1).svg" alt="vague">
-				</div>
+				<img src="https://via.placeholder.com/400x250">
+			</article>
 		</section>
+		<div class="vague2" id="rooms">
+			<img class="vague" src="/images/vague2.svg" alt="vague">
+		</div>
 
-		
 		<section class="mid2">
+			<div class="titre"><h2>Les Rooms</h2></div>
+			<span id="room1"></span>
 			<article class="article3">
-				<h2>Les Rooms</h2>
 				<img src="https://via.placeholder.com/400x250">
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore fuga, est cum ipsam, eos amet
 					laboriosam nulla, pariatur debitis quibusdam voluptatum voluptates ad nobis enim aliquid tenetur ab?
@@ -90,6 +89,7 @@
 
 			</article>
 
+			<span id="room2"></span>
 			<article class="article4">
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore fuga, est cum ipsam, eos amet
 					laboriosam nulla, pariatur debitis quibusdam voluptatum voluptates ad nobis enim aliquid tenetur ab?
@@ -107,11 +107,11 @@
 			</article>
 		</section>
 
-		<section class="bottom">
-			<div class="vague3">
-				<img class="vague" src="/images/Vector(2).svg" alt="vague">
-			</div>
-
+		<div class="vague3">
+			<img class="vague" src="/images/vague3.svg" alt="vague">
+		</div>
+		<section class="bottom" id="contact">
+			<div class="titre"><h2>Contact</h2></div>
 
 			<article class="article5">
 				<img src="https://via.placeholder.com/400x250">
@@ -133,11 +133,10 @@
 
 
 	</main>
+	<div class="vague4">
+		<img class="vague" src="/images/vague4.svg" alt="vague">
+	</div>
 
-	<!-- <div class="socials">
-		<img src="images/facebook.png" alt="logo_facebook">
-		<img src="images/twitter.png" alt="logo_twitter">
-	</div> -->
 
 	<footer>
 		<!-- lien interne qui permet de revenir par clic au début de la page avec des ancres et avec libellé "Retour au début" -->
