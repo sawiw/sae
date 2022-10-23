@@ -259,6 +259,11 @@ div .vague {
 
 /* CONTACT KARIMMMMMM */
 
+.bottom {
+  margin-top: -190px;
+  z-index: 3;
+}
+
 .article5 {
   display: flex;
   flex-direction: column;
