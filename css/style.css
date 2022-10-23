@@ -1,10 +1,14 @@
 @font-face {
-  font-family: "BigFonte";
-  src: url(fonts/AlexBrush-Regular.ttf);
+  src: url(fonts/GochiHand-Regular.ttf);
+  font-family: "Gochi";
+  font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 50px;
 }
 
 body {
@@ -15,30 +19,37 @@ body {
 }
 a {
   text-decoration: none;
+  color: #ffffff;
 }
 a:visited {
-  color: #0088FF;
 }
 a:hover{
   color: orange;
 }
 
-p {
-  margin: 30px 0px;
+h2,p,h1 {
   color: white;
+  font-family: 'Nunito', sans-serif;
+  background-color: rgba(2, 2, 2, 0.212);
+  border-radius: 30px;
+  padding: 20px;
 }
+
 
 header {
   display: flex;
   align-items: flex-end;
   background-color: #1E272D;
   width: 100%;
-  padding-bottom: 6px;
+  opacity: 1;
   position: fixed;
   z-index: 2;
+  height:60px ;
  }
 
-nav {
+header nav {
+  opacity: 1;
+  position: static;
   width: 75%;
   margin: 0 auto;
   height: 50px;
@@ -52,27 +63,36 @@ nav div:first-child {
   border-radius: 0px 0px 50px 100px;
 }
 
+nav div:last-child {
+  border-radius: 0px 0px 100px 50px;
+}
+
 nav div {
-  background: #215E86;
+  background: #3c8ec4;
+  border-bottom: none;
   border-radius: 0px 0px 50px 50px;
   display: inline-flex;
   position: relative;
-  width: 200px;
+  width: 23%;
+  height: 80%;
+  top: 0;
   align-items: center;
-  
 }
 
 nav div:hover {
-  background: #3c8ec4;
+  background: #68bbf1;
   border-bottom: solid #215E86;
 }
 
 nav div a {
+  color: white;
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font: 1.7em 'Gochi', sans-serif;
+  font-style: normal;
 }
 
 nav div:first-child a {
@@ -91,7 +111,6 @@ nav div:hover .submenu  {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  
   z-index: 1;
 }
 
@@ -117,8 +136,9 @@ main {
 }
 
 section {
-  padding: 0 100px;
+  padding: 0 10vw;
 }
+
 article {
   height:auto;
   width: 100%;
@@ -131,28 +151,32 @@ article {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 20px 0;
 }
 
 .triple img{
   border: 16px solid #1E272D;
 border-radius: 9999px;
 max-width: 300px;
+width: 25vw;
 padding: 5px;
 transition: ease-in-out 300ms;
+overflow-y: hidden;
 }
 
 .triple img:hover{
-  transform: scale(1.6);
+  transform: scale(0.9);
   transition: ease-in-out 300ms;
 }
 
 article img {
-  /* aspect-ratio: 16/9; */
+  width: 30vw;
   padding: 15px;
   border-radius: 30px;
 }
 
 article p {
+  font-size-adjust: ;
   padding: 10px;
 }
 
@@ -168,6 +192,7 @@ article p {
 }
 .article3 , .article4 {
   background-color: #1C3647;
+
 }
 
 
@@ -202,6 +227,7 @@ div .vague {
 
 .top {
   background-color:#0099FF;
+  padding-top: 100px;
 }
 
 .mid1 {
