@@ -21,10 +21,13 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-a:visited {
-}
+
 a:hover{
   color: orange;
+}
+
+h2 {
+  font-size: 2vw;
 }
 
 h2,p,h1 {
@@ -45,6 +48,7 @@ header {
   position: fixed;
   z-index: 2;
   height:60px ;
+  opacity: 0.9;
  }
 
 header nav {
@@ -130,6 +134,10 @@ main {
   align-items:center;
 }
 
+h1 {
+  font-size: 3vw;
+}
+
 .titre {
   display: flex;
   justify-content: center;
@@ -176,8 +184,8 @@ article img {
 }
 
 article p {
-  font-size-adjust: ;
   padding: 10px;
+  font-size: 1.3vw;
 }
 
 .article1 {
@@ -245,7 +253,3 @@ footer {
   margin-top: -1px;
 }
 
-span {
-  margin-bottom: 10px;
-  content: ' ';
-}
