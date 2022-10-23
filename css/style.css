@@ -435,7 +435,7 @@ button::before {
 
 @keyframes bubbles {
   from {
-    transform: translate();
+    transform: translate(0);
   }
   to {
     transform: translate(0, -66.666%);
